@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.courses {
+    /*display: grid;*/
+
+}
+
+.container-courses{
+    min-height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 6em 1fr 4em;
+    grid-gap: 1em;
+
+}
+
+.description{
+    grid-column: span 24;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.description p:nth-child(1){
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    color: #2B3C47;
+}
+
+.description p:nth-child(2){
+    color: #6A7578;
+    font-size: 1.2em;
+}
+
+.courses {
+    grid-column: 2 / span 22;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 2em;
+
+}
+
+
+.courses div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.courses div a{
+    grid-column: 1;
+    grid-row: span 9;
+    /*border: 1px solid blue;*/
+}
+.courses div p{
+    grid-column: 1;
+    grid-row: 10 /span 12;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses p a{
+    text-decoration: none;
+    color:  #697478;
+}
+
+
+
+.footer{
+    grid-column: span 24;
+    grid-row: 3;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    background: #2A3B47;
+}
+
+.footer p {
+    color: #BDBDBD;
+}
+
+
+
+
+
+

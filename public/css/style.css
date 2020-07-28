@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.section-one {
+    width: 900px;
+    /*min-width: 550px;*/
+    height: 100px;
+}
+
+.section-one a{
+    text-decoration: none;
+}
+
+.section-two {
+    background: linear-gradient(38.93deg, #4ABCE0 0%, rgba(31, 185, 234, 0.942708) 0%, rgba(114, 204, 233, 0.9) 78.76%);
+    border: 1px solid #2DBDEA;
+    width: 900px;
+    /*min-width: 550px;*/
+    height: 100vh;
+}
+
+.design-one{
+    margin: 135px auto;
+    width: 560px;
+    height: 560px;
+    background: rgba(109, 215, 248, 0.29);
+    border-radius: 50%;
+    /*background: red;*/
+}
+
+.design-two{
+    position: absolute;
+    width: 392px;
+    height: 392px;
+    background: yellow;
+    margin: 84px;
+    background: rgba(109, 215, 248, 0.51);
+    border-radius: 50%;
+    /*margin-top: 200px;*/
+}
+
+.design-two .img{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    margin: 65px 21px;
+    /*background: darkslateblue;*/
+}
+
+.design-two .img img{
+    width: 100%;
+}
+
+.principle {
+    display: flex;
+}
+
+.logo img {
+    width: 176px;
+    height: 36px;
+    /*margin-left: 35px;*/
+    /*margin-top: 51px;*/
+}
+
+
+.menu {
+    width: 89%;
+    margin: 0   auto;
+    display: flex;
+    padding: 0;
+
+}
+
+.menu ul{
+    display: flex;
+
+    margin-top: 51px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu .log-in {
+    margin-left: 260px;
+    font-style: normal;
+    line-height: 36px;
+    font-size: 1.5em;
+    /*margin-left: ;*/
+    color: rgba(23, 194, 248, 0.942708);
+}
+
+
+
+/*DISEÑO DEL FORMULARIO DE INGRESO*/
+
+.form {
+    width: 450px;
+    height: 365px;
+    margin: 170px auto;
+    /*background: red;*/
+}
+
+.form h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #545454;
+}
+
+.form p{
+    margin-bottom: 20px;
+    color: #8B8B8B;
+    font-size: 1.5em;
+}
+.controls {
+    width: 92%;
+    padding: 10px;
+    border: solid #ffffff 1px;/*Esconde el borde por defecto*/
+    border-bottom: solid #18B8EB 1px;
+    margin-bottom: 16px;
+    font-size: 18px;
+
+}
+
+.form img{
+    margin-top: 0px;
+}
+
+.form .img-msm{
+    width: 35px;
+    height: 33px;
+}
+
+.form .forgot-pass{
+    height: 40px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.3em;
+    line-height: 40px;
+}
+ .form .forgot-pass a{
+     color: #8B8B8B;
+ }
+
+.form .botons{
+    width: 100%;
+    background: linear-gradient(263.4deg, rgba(88, 209, 248, 0.9) 1.44%, rgba(23, 194, 248, 0.942708) 99.2%);;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 2em;
+    color: #F0F0F0;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.17);
+}
+
+
+
+
+
+
