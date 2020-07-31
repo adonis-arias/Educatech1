@@ -19,14 +19,14 @@ class CreateNotaValuesTable extends Migration
             $table->integer('nota_structures_id')->unsigned();
             $table->foreign('nota_structures_id')
                   ->references('id')
-                  ->on('notas_structure')
+                  ->on('notas_structures')
                   ->onDelete('cascade');
             $table->integer('student_id')->unsigned();
             $table->foreign('student_id')
                   ->references('id')
                   ->on('students')
                   ->onDelete('cascade');
-            $table->integer('period_ranges_id')->unsigned();
+            $table->integer('period _ranges_id')->unsigned();
             $table->foreign('period_ranges_id')
                   ->references('id')
                   ->on('periods_ranges')

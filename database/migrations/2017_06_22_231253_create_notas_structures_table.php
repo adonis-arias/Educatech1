@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateNotasStructureTable extends Migration
+class CreateNotasStructuresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateNotasStructureTable extends Migration
      */
     public function up()
     {
-        Schema::create('notas_structure', function (Blueprint $table) {
+        Schema::create('notas_structures', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
             $table->integer('nota_id')->unsigned();
@@ -30,6 +30,6 @@ class CreateNotasStructureTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('notas_structure');
+        Schema::dropIfExists('notas_structures');
     }
 }
