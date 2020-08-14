@@ -18,3 +18,4 @@ Route::post('login','Auth\AutenticacionController@login')->name('app.login.submi
 Route::post('logout','Auth\AutenticacionController@logout')->name('app.logout');
 //Cursos
 Route::get('cursos','CourseController@showPage')->name('app.course.page');
+Route::get('cursos/{{id}}','CourseController@info')->name('app.course.info');

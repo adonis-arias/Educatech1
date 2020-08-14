@@ -16,7 +16,7 @@
                 </div>
              <div class="courses">
                     @foreach($lista_cursos as $curso)
-                    <div class="razoMatematico"><a href="./curso.html"><img src="./img/rm.jpeg" alt=""></a><p><a href="#">{{$curso->nombre}}</a></p></div>
+                    <div class=" {{$curso}}"><a href="./curso.html"><img src="./img/rm.jpeg" alt=""></a><p><a href="#">{{$curso->nombre}}</a></p></div>
                     @endforeach
              </div>
              <div class="footer">
